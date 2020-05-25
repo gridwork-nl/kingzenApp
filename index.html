@@ -1,16 +1,83 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
- <meta charset="UTF-8">
- <meta name="viewport" content="width=device-width, initial-scale=1.0">
- <link rel="stylesheet" href="styles.css">
- <title>Kingzen</title>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/css/bootstrap.min.css"
+    integrity="sha384-9aIt2nRpC12Uk9gS9baDl411NQApFmC26EwAOH8WgZl5MYYxFfc+NcPb1dKGj7Sk" crossorigin="anonymous">
+  <link href="https://fonts.googleapis.com/css2?family=Rye&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="styles.css">
+  <title>Kingzen</title>
 </head>
-<body>
- 
+
+<body class="bg-success">
+  <embed src="./music/the-medieval-banquet.mp3" loop="true" autostart="true" width="2" height="0">
+  <h1 class="text-center p-5 text-danger">Kingzen</h1>
+  <div class="container-xl my-3 mx-auto">
+    <div class="row my-3 mx-auto text-center text-light">
+      <div class="col-md">
+        <h3 class="text-danger">Spelers</h3>
+      </div>
+      <div class="col-md d-flex flex-column">
+        <h3 class="text-danger">Deck</h3>
+        <img src="./img/card-bg.png" alt="" width="200px" class="mx-auto">
+        <button type="button" id="deal-btn" class="btn btn-danger mx-auto text-center px-5 py-2 m-5">Deal</button>
+      </div>
+      <!-- game rules -->
+      <div class="col-md">
+        <h3 class="text-danger pb-3">Regels</h3>
+        <div class="input-group d-flex justify-content-center align-items-center my-3">
+          <h4 class="my-auto mx-3">2</h4><input type="text" class="form-control bg-success">
+        </div>
+        <div class="input-group d-flex justify-content-center align-items-center my-3">
+          <h4 class="my-auto mx-3">3</h4><input type="text" class="form-control bg-success">
+        </div>
+        <div class="input-group d-flex justify-content-center align-items-center my-3">
+          <h4 class="my-auto mx-3">4</h4><input type="text" class="form-control bg-success">
+        </div>
+        <div class="input-group d-flex justify-content-center align-items-center my-3">
+          <h4 class="my-auto mx-3">5</h4><input type="text" class="form-control bg-success">
+        </div>
+        <div class="input-group d-flex justify-content-center align-items-center my-3">
+          <h4 class="my-auto mx-3">6</h4><input type="text" class="form-control bg-success">
+        </div>
+        <div class="input-group d-flex justify-content-center align-items-center my-3">
+          <h4 class="my-auto mx-3">7</h4><input type="text" class="form-control bg-success">
+        </div>
+        <div class="input-group d-flex justify-content-center align-items-center my-3">
+          <h4 class="my-auto mx-3">8</h4><input type="text" class="form-control bg-success">
+        </div>
+        <div class="input-group d-flex justify-content-center align-items-center my-3">
+          <h4 class="my-auto mx-3">9</h4><input type="text" class="form-control bg-success">
+        </div>
+        <div class="input-group d-flex justify-content-center align-items-center my-3">
+          <h4 class="my-auto" id="rule-10">10</h4><input type="text" class="form-control bg-success">
+        </div>
+        <div class="input-group d-flex justify-content-center align-items-center my-3">
+          <h4 class="my-auto mx-3">B</h4><input type="text" class="form-control bg-success">
+        </div>
+        <div class="input-group d-flex justify-content-center align-items-center my-3">
+          <h4 class="my-auto mx-3">V</h4><input type="text" class="form-control bg-success">
+        </div>
+        <div class="input-group d-flex justify-content-center align-items-center my-3">
+          <h4 class="my-auto mx-3">K</h4><input type="text" class="form-control bg-success">
+        </div>
+        <div class="input-group d-flex justify-content-center align-items-center my-3">
+          <h4 class="my-auto mx-3">A</h4><input type="text" class="form-control bg-success">
+        </div>
+      </div>
+      <!-- end of game rules -->
+    </div>
+    <div class="row">
+
+    </div>
+  </div>
 
 
 
- <script src="app.js"></script>
+
+  <script src="app.js"></script>
 </body>
+
 </html>
